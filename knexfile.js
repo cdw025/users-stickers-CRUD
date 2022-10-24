@@ -6,7 +6,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/sticker-mania'
+    connection: 'postgres://postgres:postgres/megappserver'
   },
   production: {
     client: 'pg',
